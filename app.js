@@ -1,4 +1,4 @@
-const area = document.getElementById("area");
+/* const area = document.getElementById("area");
 let move = 0;
 let result = "";
 
@@ -39,4 +39,4 @@ const check = () => {
   }
 };
 
-const prepareResult = (winner) => {};
+const prepareResult = (winner) => {}; */
