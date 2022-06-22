@@ -25,7 +25,6 @@ const startGame = () =>{
 }
 
 startGame()
-console.log(box)
 
 startBtn.addEventListener("click", startGame)
 
@@ -34,7 +33,6 @@ for (i = 0; i < box.length; i++) {
     move % 2 === 0 ? (e.target.textContent = "X") : (e.target.textContent = "O");
     move++;
     checkWinner();
-    
   });
 }
 
